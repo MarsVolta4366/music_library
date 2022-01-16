@@ -1,4 +1,3 @@
-// On step 5
 import './App.css';
 import React from 'react';
 import { useEffect, useState } from 'react';
