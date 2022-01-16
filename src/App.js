@@ -50,9 +50,9 @@ function App() {
                 <Gallery />
               </DataContext.Provider>
             </div>
-          }/>
-          <Route path="/album/:id" element={<AlbumView/>}/>
-          <Route path="/artist/:id" element={<ArtistView />}/>
+          } />
+          <Route path="/album/:id" element={<AlbumView />} />
+          <Route path="/artist/:id" element={<ArtistView />} />
         </Routes>
       </Router>
     </div>
@@ -60,30 +60,3 @@ function App() {
 }
 
 export default App;
-
-
-// return (
-//   <div className="App">
-//     {message}
-//     <Router>
-//       <Route exact path="/">
-        // <SearchContext.Provider value={{
-        // term: searchInput,
-        // handleSearch: handleSearch
-        // }}>
-        //   <SearchBar/>
-        // </SearchContext.Provider>
-        // <DataContext.Provider value={data}>
-        //   <Gallery/>
-        // </DataContext.Provider>
-//       </Route>
-
-//       <Route path="/album/:id">
-//         <AlbumView/>
-//       </Route>
-//       <Route path="/artist/:id">
-//         <ArtistView/>
-//       </Route>
-//     </Router>
-//   </div>
-// );
